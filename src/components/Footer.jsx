@@ -7,7 +7,7 @@ const Footer = () => {
   let Navitems = ['Home' , 'About' , 'Skills' , 'Projects' , 'Contact']
 
   return (
-    <div className="mt-10">
+    <div className="m-10 ">
        <div className=" p-4  rounded-lg w-[84%] mx-auto " id="footer">
 
       <div className="bg-transparent flex flex-col gap-8 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
@@ -19,7 +19,7 @@ const Footer = () => {
        </div>
 
        <div className="flex gap-2 items-center">
-         <p className="text-white text-xl">Connect with me -</p>
+         <p className="text-white text-lg">Connect with me -</p>
          <div className="flex gap-2 items-center">
           <a href="https://www.linkedin.com/in/srinjoy-pati-7b14301b7/" target="blank"><CiLinkedin className="text-white text-4xl hover:text-blue-500 cursor-pointer ease-in-out duration-300"/></a>
           <a href="https://www.instagram.com/its_srinjoy_2605/" target="blank"><FaInstagram className="text-white text-3xl hover:text-pink-400 cursor-pointer ease-in-out duration-300"/></a>
