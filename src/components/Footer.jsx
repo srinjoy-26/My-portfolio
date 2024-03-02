@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className="m-10 ">
-       <div className=" p-4  rounded-lg w-[84%] mx-auto " id="footer">
+       <div className=" p-4  rounded-lg w-[95%] lg:w-[84%] mx-auto " id="footer">
 
       <div className="bg-transparent flex flex-col gap-8 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
       <div className="pfimg w-16 h-16 rounded-full "></div>

@@ -1,0 +1,44 @@
+let skills = [
+  {
+    name:'HTML',
+    src:'../public/images/html.svg'
+  },
+  {
+    name:'CSS',
+    src:'../public/images/css.svg'
+  },
+  {
+    name:'JS',
+    src:'../public/images/js.svg'
+  },
+  {
+    name:'REACT',
+    src:'../public/images/react.png'
+  },
+  {
+    name:'TAILWIND',
+    src:'../public/images/tailwind.png'
+  },
+  {
+    name:'MYSQL',
+    src:'../public/images/mysql.png'
+  },
+  {
+    name:'VSCODE',
+    src:'../public/images/vscode.png'
+  },
+  {
+    name:'GIT',
+    src:'../public/images/git.png'
+  },
+  {
+    name:'GITHUB',
+    src:'../public/images/github.png'
+  },
+  {
+    name:'POSTMAN',
+    src:'../public/images/postman.svg'
+  }
+]
+
+export default skills

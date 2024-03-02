@@ -2,7 +2,9 @@
  import { LuMenuSquare } from "react-icons/lu";
  import { FaPersonWalkingArrowRight } from "react-icons/fa6";
 import { useState } from "react";
- 
+ import { Link } from "react-router-dom";
+ import { RxCross1 } from "react-icons/rx";
+
  const Navbar = () => {
     let Navitems = ['Home' , 'About' , 'Skills' , 'Projects' , 'Contact']
     let[disp , setdisp] = useState(false)
@@ -15,10 +17,11 @@ import { useState } from "react";
        <div className="pfimg w-16 h-16 rounded-full "></div>
        <div className="nav justify-between gap-8 hidden lg:flex">
         {Navitems.map((x,index) => (
-          <p key={index} className="text-white text-lg hover:font-semibold cursor-pointer ease-in duration-200 ">{x}</p>
+         <Link key={index} to={x == 'Home' ? '/' : `/${x.toLowerCase()}`}> <p  className="text-white text-lg hover:font-semibold cursor-pointer ease-in duration-200 ">{x}</p></Link>
         ))}
        </div>
-       <LuMenuSquare className="lg:hidden text-3xl text-blue-400" onClick={()=>{setdisp(!disp)}}/>
+       <LuMenuSquare className={`lg:hidden text-3xl text-blue-400 ${disp && 'hidden'}`} onClick={()=>{setdisp(true)}}/>
+       <RxCross1 className={`lg:hidden text-3xl text-blue-400 ${disp || 'hidden'}`} onClick={()=>{setdisp(false)}}/>
      </div>
     </div>
 
@@ -26,7 +29,7 @@ import { useState } from "react";
       
        <div className="nav gap-5 flex flex-col">
         {Navitems.map((x,index) => (
-          <p key={index} onClick={()=>{setdisp(false)}} className="text-white text-lg hover:font-semibold cursor-pointer flex gap-3 items-center"><FaPersonWalkingArrowRight className="text-blue-400 text-3xl"/>{x}</p>
+         <Link key={index} to={x == 'Home' ? '/' : `/${x.toLowerCase()}`}><p  onClick={()=>{setdisp(false)}} className="text-white text-lg hover:font-semibold cursor-pointer flex gap-3 items-center"><FaPersonWalkingArrowRight className="text-blue-400 text-3xl"/>{x}</p></Link> 
         ))}
        </div>
        
