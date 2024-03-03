@@ -2,7 +2,7 @@
  
  const Hersection = () => {
    return (
-     <div className="flex justify-around items-center gap-5 px-3 lg:px-0 h-[90vh] pt-[100px] relative" id="herodiv">
+     <div className="flex justify-around items-center gap-5 px-3 lg:px-0 md:h-[90vh] pt-[100px] relative" id="herodiv">
      <div className="lg:w-[40%] " id="hero-text">
        <div className="flex flex-col gap-6 justify-center p-4">
          <div className="text-white max-w-fit p-2 bg-gradient-to-r from-[#2b0837] to bg-blue-900 rounded-lg text-xl">Welcome to my Portfolio</div>
