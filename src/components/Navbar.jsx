@@ -21,11 +21,12 @@ import { useState } from "react";
         ))}
        </div>
        <LuMenuSquare className={`lg:hidden text-3xl text-blue-400 ${disp && 'hidden'}`} onClick={()=>{setdisp(true)}}/>
-       <RxCross1 className={`lg:hidden text-3xl text-blue-400 ${disp || 'hidden'}`} onClick={()=>{setdisp(false)}}/>
+       <RxCross1 className={`lg:hidden text-3xl text-blue-400 ${disp || 'hidden'} `} onClick={()=>{setdisp(false)}}/>
      </div>
     </div>
 
-    <div className={`bg-transparent flex  pt-[130px] w-[84%] mx-auto h-screen ${disp ||'hidden'} `}>
+  <div className={`navbar-topbar ${disp ? 'open' : ''}`} id="topbar">
+    <div className={` bg-black flex  pt-[130px] h-screen  pl-[55px]` }>
       
        <div className="nav gap-5 flex flex-col">
         {Navitems.map((x,index) => (
@@ -34,9 +35,11 @@ import { useState } from "react";
        </div>
        
      </div>
+     </div>
     </>
    )
  }
  
  export default Navbar
  
+

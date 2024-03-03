@@ -75,7 +75,22 @@
   top: 0;
   z-index: 999;
 }
+#topbar{
+  position: fixed;
+  width: 84%;
+  top: 0;
+  z-index: 998;
+}
 
+.navbar-topbar {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease; 
+}
+
+.navbar-topbar.open {
+  max-height: 100vh; 
+}
 
 #tech2 , #homep{
   font-family: "Permanent Marker", cursive;
