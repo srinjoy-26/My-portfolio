@@ -4,13 +4,13 @@ import skills from "../Skillimg"
 const Skills = () => {
   let[skill , upskill] = useState(skills)
   return (
-    <div className="bg-transparent  flex flex-col justify-center items-center pt-[120px]">
-      <div className="py-10  w-[80%] mx-auto text-left">
+    <div className="bg-transparent  flex flex-col justify-center items-center pt-[120px] pb-[90px]">
+      <div className="py-10  w-[90%] lg:w-[80%] mx-auto text-left">
       <h1 className="text-white text-4xl" id="skill">Skills</h1>
       <hr className="w-[120px] border-2 border-white" />
       </div>
      
-      <div id="skills" className="text-center">
+      <div id="skills" className="text-center px-3 lg:px-0">
         <h2 className="text-white text-xl lg:text-3xl mb-3" id="tech2">Tools & Technologies I am familiar with</h2>
         <div className="flex justify-center items-center flex-wrap gap-6 ">
           {skill.map((x , index) => (
