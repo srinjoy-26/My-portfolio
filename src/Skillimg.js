@@ -1,43 +1,43 @@
 let skills = [
   {
     name:'HTML',
-    src:'../public/images/html.svg'
+    src:'/images/html.svg'
   },
   {
     name:'CSS',
-    src:'../public/images/css.svg'
+    src:'/images/css.svg'
   },
   {
     name:'JS',
-    src:'../public/images/js.svg'
+    src:'/images/js.svg'
   },
   {
     name:'REACT',
-    src:'../public/images/react.png'
+    src:'/images/react.png'
   },
   {
     name:'TAILWIND',
-    src:'../public/images/tailwind.png'
+    src:'/images/tailwind.png'
   },
   {
     name:'MYSQL',
-    src:'../public/images/mysql.png'
+    src:'/images/mysql.png'
   },
   {
     name:'VSCODE',
-    src:'../public/images/vscode.png'
+    src:'/images/vscode.png'
   },
   {
     name:'GIT',
-    src:'../public/images/git.png'
+    src:'/images/git.png'
   },
   {
     name:'GITHUB',
-    src:'../public/images/github.png'
+    src:'/images/github.png'
   },
   {
     name:'POSTMAN',
-    src:'../public/images/postman.svg'
+    src:'/images/postman.svg'
   }
 ]
 
