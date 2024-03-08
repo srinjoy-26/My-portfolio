@@ -6,7 +6,7 @@ import { useState } from "react";
  import { RxCross1 } from "react-icons/rx";
 
  const Navbar = () => {
-    let Navitems = ['Home' , 'About' , 'Skills' , 'Projects' , 'Contact']
+    let Navitems = ['Home' , 'Experience' , 'Skills' , 'Projects' , 'Contact']
     let[disp , setdisp] = useState(false)
 
     disp? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";

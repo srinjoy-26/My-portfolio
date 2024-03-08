@@ -38,6 +38,10 @@ let skills = [
   {
     name:'POSTMAN',
     src:'/images/postman.svg'
+  },
+  {
+    name: 'APPWRITE',
+    src: '/images/appwrite.png'
   }
 ]
 

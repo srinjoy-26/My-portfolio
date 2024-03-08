@@ -4,7 +4,7 @@ import skills from "../Skillimg"
 const Skills = () => {
   let[skill , upskill] = useState(skills)
   return (
-    <div className="bg-transparent  flex flex-col justify-center items-center pt-[120px] pb-[90px]">
+    <div className="bg-transparent  flex flex-col justify-center items-center pt-[100px] pb-[90px]">
       <div className="py-10  w-[90%] lg:w-[80%] mx-auto text-left">
       <h1 className="text-white text-4xl" id="skill">Skills</h1>
       <hr className="w-[120px] border-2 border-white" />
