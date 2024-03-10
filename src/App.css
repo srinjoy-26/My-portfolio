@@ -131,3 +131,17 @@
     height: 100%;
   }
 }
+
+#proj-div{
+  animation: load 1.5s linear ;
+}
+
+@keyframes load{
+0%{
+  rotate: 20deg;
+}
+50%{
+  rotate: -20deg;
+}
+ 
+}

@@ -1,7 +1,7 @@
-export let Projects = [
+export let works = [
   {
     name:"FitTrackHub",
-    des:"A fitness-guide app made using React , Tailwind CSS ,Aos, MUI , with exercise details from excerciseDB API , and appwrite used for Backend(authentication)",
+    des:"A fitness-guide app made using React , Tailwind CSS ,Aos, MUI , with exercise details from excerciseDB API , and appwrite.",
     link:"https://fittrackhub.vercel.app/",
     img:'/images/fittrackhub.png'
   },
@@ -13,19 +13,19 @@ export let Projects = [
   },
   {
     name:"Coffee-landing-page",
-    des:"a Mordern coffee-themed landing page made using HTML , CSS , JS",
+    des:"A Mordern coffee-themed landing page made using HTML , CSS , JS",
     link:"https://srinjoy-26.github.io/Coffee-landing-page/",
     img:'/images/coffee.png'
   },
   {
     name:"Meme-generator",
-    des:"a meme generator using HTML,CSS,JS and memes fteched from Dad jokes API",
+    des:"A meme generator using HTML,CSS,JS and memes fteched from Dad jokes API , made to implement asynchronous js.",
     link:"https://srinjoy-26.github.io/meme-generator/",
     img:'/images/meme.png'
   },
   {
     name:"Quiz-App",
-    des:"A Quiz game built using HTML , Tailwind-css and JS.",
+    des:"A Quiz game built using HTML , Tailwind-css and JS. Here aim was to implement DOM manipulation in js.",
     link:"https://srinjoy-26.github.io/Quiz-game/",
     img:'/images/quiz.png'
   }
