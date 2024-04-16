@@ -29,6 +29,14 @@ export let Experience = [
     des:"Building the frontend of a NFT Marketplace using React , Tailwind CSS.",
     type:'Internship',
     Image:'/images/logo.png'
+  },
+  {
+    name:"Social Media Marketing Intern",
+    company:"Foodverse by Onerare",
+    duration:'Mar 2024 - Present',
+    des:"working on creating content based on the game on Twitter",
+    type:'Internship',
+    Image:'/images/onerare.png'
   }
 ]
 

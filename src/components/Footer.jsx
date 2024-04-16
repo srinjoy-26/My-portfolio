@@ -1,6 +1,7 @@
 import { SiGithub } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -14,7 +15,7 @@ const Footer = () => {
       <div className="pfimg w-16 h-16 rounded-full "></div>
       <div className="nav gap-4 flex flex-col">
         {Navitems.map((x,index) => (
-          <p key={index} className="text-white text-md hover:font-semibold cursor-pointer ease-in duration-200 ">{x}</p>
+          <Link key={index} to={x == 'Home' ? '/' : `${x.toLowerCase()}`}><p  className="text-white text-md hover:font-semibold cursor-pointer ease-in duration-200 ">{x}</p></Link>
         ))}
        </div>
 

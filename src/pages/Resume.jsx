@@ -35,7 +35,7 @@ const Resume = () => {
         <img src={x.Image} className="h-10 w-10 bg-black rounded-full absolute top-12 right-[-23px]"/>
         
         <div className="text bg-gradient-to-r from-[#FAF6F0] to-[#FFD28F] p-3 rounded-xl">
-          <h1 className=" text-xl md:text-2xl font-semibold">{`${x.name}(${x.company})`}</h1>
+          <h1 className=" text-xl md:text-2xl font-semibold ">{`${x.name} (${x.company})`}</h1>
           <small className="font-semibold text-lg text-slate-500">{x.duration}</small>
           <p className="text-lg">{x.des}</p>
         </div>
@@ -52,7 +52,7 @@ const Resume = () => {
         <img src={x.Image} className="h-10 w-10 bg-white rounded-full absolute top-12 right-[-23px]"/>
         
         <div className="text bg-gradient-to-r from-[#E6B9DE] to-[#EEF5FF] p-3 rounded-xl">
-          <h1 className=" text-xl md:text-2xl font-semibold">{`${x.name}(${x.company})`}</h1>
+          <h1 className=" text-xl md:text-2xl font-semibold">{`${x.name} (${x.company})`}</h1>
           <small className="font-semibold text-lg text-slate-500">{x.duration}</small>
           <p className="text-lg">{x.des}</p>
         </div>
